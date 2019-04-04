@@ -11,6 +11,7 @@ public class Application
     public static void main(String[] args)
     {
         logger.fine("Debug message");
+        logger.error("ERROR MESSAGE");
         logger.info("Info message");
         logger.warning("Warn message");
 
